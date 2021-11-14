@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice SASS Project 1</title>
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <link rel="apple-touch-icon" href="#">
+    <link rel="stylesheet" href="./app.css">
+</head>
+<body>
+    <nav class="nav-bar">
+        <a class="nav-bar__logo" href="">Personal</a>
+        <div class="nav-bar__burger" onclick="toggleBurger()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="nav-bar__list">
+            <li class="nav-bar__list__item"><a class="nav-bar__list__item__link" href="">Home</a></li>
+            <li class="nav-bar__list__item"><a class="nav-bar__list__item__link" href="">Products</a></li>
+            <li class="nav-bar__list__item"><a class="nav-bar__list__item__link" href="">Services</a></li>
+            <li class="nav-bar__list__item"><a class="nav-bar__list__item__link nav-bar__list__item__link--sign-up" href="">Sign Up</a></li>
+        </ul>
+    </nav>
+    <section class="hero">
+        <div class="hero__left">
+            <h1>They are coming</h1>
+            <h2>Be Prepared</h2>
+            <p>Sign Up Now</p>
+            <button><a href="">Sign Up</a></button>
+        </div>
+        <div class="hero__right">
+            <img src="./img-2.svg" alt="Hero Image">
+        </div>
+    </section>
+    <script src="./app.js"></script>
+</body>
+</html>
